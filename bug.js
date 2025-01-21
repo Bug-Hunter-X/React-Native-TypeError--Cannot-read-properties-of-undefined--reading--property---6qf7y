@@ -1,0 +1,1 @@
+This error occurs when you try to access a property of an object that is null or undefined.  For example, if you have a state variable `user` that might not be loaded yet, and you try to access `user.name` before it's assigned a value, you'll get a TypeError. This is common in asynchronous operations like fetching data from an API.
